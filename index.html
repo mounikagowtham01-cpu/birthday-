@@ -609,7 +609,7 @@ function toggleMusic(){
 
 </body>
 <audio id="birthdayMusic" src="music.mp3" autoplay loop></audio>
-<button id="musicBtn">🎵 Play Music</button>
+<button id="musicBtn" onclick="document.getElementById('birthdayMusic').play()">🎵 Play Music</button>
 
 <script>
 const music = document.getElementById("birthdayMusic");
