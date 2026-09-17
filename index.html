@@ -608,5 +608,22 @@ function toggleMusic(){
 
 </script>
 
-</body>
+</body><audio id="birthdayMusic" src="music.mp3"></audio>
+
+<button id="musicBtn">🎵 Play Music</button>
+
+<script>
+const music = document.getElementById("birthdayMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+musicBtn.onclick = () => {
+  if (music.paused) {
+    music.play();
+    musicBtn.innerHTML = "⏸️ Pause Music";
+  } else {
+    music.pause();
+    musicBtn.innerHTML = "🎵 Play Music";
+  }
+};
+</script>
 </html>
