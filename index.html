@@ -3,181 +3,609 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LUMÉRA Salon</title>
+
+<title>Happy Birthday, Mounika Madam 💙</title>
 
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Arial,sans-serif;background:#faf7f3;color:#302724}
-nav{position:absolute;top:0;left:0;width:100%;padding:25px 7%;display:flex;justify-content:space-between;align-items:center;z-index:5}
-.logo{color:white;font:700 27px Georgia;letter-spacing:5px}
-nav a{color:white;text-decoration:none;margin-left:22px;font-size:12px;letter-spacing:1px}
-.hero{min-height:680px;padding:120px 20px;display:flex;align-items:center;justify-content:center;text-align:center;color:white;background:linear-gradient(135deg,#382823,#92705b,#241a17)}
-.hero small{letter-spacing:5px}
-.hero h1{font:700 clamp(55px,10vw,105px) Georgia;letter-spacing:10px;margin:20px 0}
-.hero h2{font:normal 28px Georgia;margin-bottom:18px}
-.hero p{margin-bottom:35px}
-.btn{display:inline-block;padding:16px 28px;background:#c49a70;color:white;border:0;text-decoration:none;letter-spacing:2px;font-size:12px;cursor:pointer}
-section{padding:85px 7%}
-.title{text-align:center;font:normal 40px Georgia;margin-bottom:12px}
-.subtitle{text-align:center;color:#777;margin-bottom:45px}
-.services,.reviews,.packages{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1100px;margin:auto}
-.card,.review,.package{background:white;padding:32px;text-align:center;border:1px solid #eee3d9}
-.card{transition:.3s}
-.card:hover{transform:translateY(-6px);box-shadow:0 12px 30px #0001}
-.icon{font-size:40px;margin-bottom:15px}
-.card h3,.package h3{font:normal 21px Georgia;margin-bottom:10px}
-.card p,.review p,.package p{color:#777;line-height:1.7}
-.price{color:#a27650;font-weight:bold;margin-top:15px}
-.about{background:#302622;color:white;text-align:center}
-.about-content{max-width:750px;margin:auto}
-.about p{line-height:1.9;color:#ddd}
-.stats{display:flex;justify-content:center;gap:60px;margin-top:40px}
-.stats strong{display:block;font:32px Georgia}
-.stats span{font-size:11px;color:#cdbdb0}
-.featured{border:2px solid #c49a70;transform:translateY(-8px)}
-.bigprice{font-size:28px;color:#a27650;font-weight:bold;margin:20px}
-.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:1100px;margin:auto}
-.gallery div{height:250px;display:flex;align-items:center;justify-content:center;text-align:center;color:white;font:22px Georgia;background:linear-gradient(135deg,#4b352c,#b38b6b)}
-.gallery div:nth-child(2){background:linear-gradient(135deg,#ad8c77,#594238)}
-.gallery div:nth-child(3){background:linear-gradient(135deg,#745546,#c6a78e)}
-.gallery div:nth-child(4){background:linear-gradient(135deg,#362723,#98745d)}
-.reviews{background:#eee5dc}
-.review{text-align:left}
-.stars{margin-bottom:15px;letter-spacing:4px}
-.review p{font-style:italic;margin-bottom:18px}
-.booking{background:#f0e7de;text-align:center}
-.form{max-width:600px;margin:auto}
-input,select{width:100%;padding:16px;margin-bottom:14px;border:1px solid #ddd0c5;background:white;font-size:15px}
-footer{background:#211a17;color:white;text-align:center;padding:45px 20px}
-footer h2{font:normal 28px Georgia;letter-spacing:4px;margin-bottom:15px}
-footer p{color:#bbb;margin:8px}
-.whatsapp{position:fixed;right:20px;bottom:20px;background:#25d366;color:white;padding:14px 20px;border-radius:30px;text-decoration:none;font-size:14px;z-index:10;box-shadow:0 4px 15px #0003}
 
-@media(max-width:800px){
-nav{padding:20px}
-nav a{margin-left:8px;font-size:9px}
-.services,.reviews,.packages{grid-template-columns:1fr}
-.featured{transform:none}
-.gallery{grid-template-columns:1fr 1fr}
-.stats{gap:25px}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
-@media(max-width:500px){
-nav a{display:none}
-.gallery{grid-template-columns:1fr}
-.hero h1{letter-spacing:6px}
+
+html{
+  scroll-behavior:smooth;
 }
+
+body{
+  font-family:Georgia,serif;
+  background:linear-gradient(180deg,#dff5ff,#f9fdff,#d8f1ff);
+  color:#24465e;
+  overflow-x:hidden;
+}
+
+/* SECTIONS */
+
+section{
+  min-height:100vh;
+  padding:55px 18px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+/* FIRST SCREEN */
+
+.hero{
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 20% 20%,#ffffffaa,transparent 25%),
+    radial-gradient(circle at 80% 70%,#ffffff99,transparent 25%);
+}
+
+.small{
+  font-family:Arial,sans-serif;
+  font-size:12px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  color:#668ca4;
+  margin-bottom:20px;
+}
+
+h1{
+  color:#255f84;
+  font-size:clamp(42px,10vw,78px);
+  line-height:1.08;
+  margin-bottom:20px;
+}
+
+h2{
+  color:#285f82;
+  font-size:clamp(30px,7vw,52px);
+  margin-bottom:18px;
+}
+
+p{
+  font-family:Arial,sans-serif;
+  font-size:16px;
+  line-height:1.8;
+  max-width:680px;
+}
+
+button{
+  border:0;
+  border-radius:40px;
+  padding:15px 28px;
+  margin-top:28px;
+  background:#3b8fbd;
+  color:white;
+  font-size:15px;
+  cursor:pointer;
+  box-shadow:0 8px 25px #4c91b844;
+}
+
+button:active{
+  transform:scale(.96);
+}
+
+/* CARD */
+
+.card{
+  width:100%;
+  max-width:780px;
+  padding:38px 24px;
+  border-radius:30px;
+  background:#ffffffcc;
+  backdrop-filter:blur(15px);
+  border:1px solid #ffffff;
+  box-shadow:0 15px 50px #377fa522;
+}
+
+/* MESSAGE */
+
+.message{
+  min-height:170px;
+  margin-top:20px;
+  white-space:pre-line;
+}
+
+/* GALLERY */
+
+.gallery{
+  width:100%;
+  max-width:1050px;
+  margin-top:30px;
+
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+
+/*
+IMPORTANT:
+No fixed height.
+The frame automatically follows the actual
+photo ratio, so faces are not cropped.
+*/
+
+.photo{
+  width:100%;
+  border-radius:24px;
+  overflow:hidden;
+
+  background:
+    linear-gradient(135deg,#c7eafa,#f5fcff);
+
+  border:2px solid #ffffff;
+
+  box-shadow:
+    0 10px 30px #4b8ead22;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* THE IMPORTANT PART */
+
+.photo img{
+  display:block;
+
+  width:100%;
+  height:auto;
+
+  max-width:100%;
+height:360px;
+object-fit:contain;
+object-position:center;
+background:#eef7ff;
+  border-radius:22px;
+}
+
+/*
+If an image is very tall,
+keep the complete image visible.
+*/
+
+.photo.tall img{
+  max-height:650px;
+  width:auto;
+  max-width:100%;
+}
+
+/* PHOTO LABEL WHEN IMAGE IS MISSING */
+
+.photo.missing{
+  min-height:250px;
+  font-family:Arial,sans-serif;
+  color:#7195aa;
+  font-size:14px;
+}
+
+/* FINAL */
+
+.final{
+  background:linear-gradient(180deg,#d9f3ff,#bde5f8);
+}
+
+.signature{
+  margin-top:35px;
+  font-size:25px;
+  color:#286b91;
+}
+
+/* MUSIC */
+
+.music{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  z-index:100;
+
+  width:54px;
+  height:54px;
+
+  padding:0;
+  margin:0;
+
+  border-radius:50%;
+
+  font-size:21px;
+}
+
+/* FLOATING HEARTS */
+
+.heart{
+  position:fixed;
+  bottom:-30px;
+  z-index:1;
+
+  font-size:20px;
+
+  animation:floatUp 7s linear forwards;
+
+  opacity:.65;
+
+  pointer-events:none;
+}
+
+@keyframes floatUp{
+
+  0%{
+    transform:translateY(0) rotate(0deg);
+    opacity:0;
+  }
+
+  15%{
+    opacity:.7;
+  }
+
+  100%{
+    transform:translateY(-110vh) rotate(360deg);
+    opacity:0;
+  }
+
+}
+
+/* FADE */
+
+.fade{
+  animation:fadeIn 1.4s ease both;
+}
+
+@keyframes fadeIn{
+
+  from{
+    opacity:0;
+    transform:translateY(25px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+  .gallery{
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+
+  .photo{
+    border-radius:22px;
+  }
+
+  .photo img{
+    width:100%;
+    height:auto;
+  }
+
+  .card{
+    padding:30px 18px;
+  }
+
+  section{
+    padding:45px 15px;
+  }
+
+}
+
 </style>
 </head>
 
+
 <body>
 
-<nav>
-<div class="logo">LUMÉRA</div>
-<div>
-<a href="#services">SERVICES</a>
-<a href="#about">ABOUT</a>
-<a href="#reviews">REVIEWS</a>
-<a href="#booking">BOOK</a>
-</div>
-</nav>
+
+<!-- OPENING -->
 
 <section class="hero">
-<div>
-<small>SALON & BEAUTY STUDIO</small>
-<h1>LUMÉRA</h1>
-<h2>Where Beauty Meets Confidence</h2>
-<p>Luxury beauty experiences, personalized just for you.</p>
-<a class="btn" href="#booking">BOOK AN APPOINTMENT</a>
-</div>
+
+  <div class="small">
+    A little surprise made with feelings 💙
+  </div>
+
+  <h1>
+    Happy Birthday,<br>
+    Mounika Madam 💙
+  </h1>
+
+  <p>
+    Not just a birthday wish.<br>
+    A little surprise made specially for you.
+  </p>
+
+  <button onclick="goTo('birthday')">
+    Open Your Surprise ✨
+  </button>
+
 </section>
 
-<section id="services">
-<h2 class="title">Our Services</h2>
-<p class="subtitle">Everything you need to look and feel your best.</p>
 
-<div class="services">
-<div class="card"><div class="icon">✂️</div><h3>Hair Styling</h3><p>Expert cuts, styling and beautiful finishes.</p><div class="price">From ₹799</div></div>
-<div class="card"><div class="icon">🎨</div><h3>Hair Color</h3><p>Beautiful colors and professional transformations.</p><div class="price">From ₹1,499</div></div>
-<div class="card"><div class="icon">✨</div><h3>Facial & Skin Care</h3><p>Relaxing treatments for healthy glowing skin.</p><div class="price">From ₹999</div></div>
-<div class="card"><div class="icon">💅</div><h3>Nails</h3><p>Elegant manicure and pedicure experiences.</p><div class="price">From ₹699</div></div>
-<div class="card"><div class="icon">👰</div><h3>Bridal Beauty</h3><p>Complete beauty preparation for your special day.</p><div class="price">From ₹8,999</div></div>
-<div class="card"><div class="icon">🌿</div><h3>Spa & Wellness</h3><p>Relaxing treatments designed to refresh you.</p><div class="price">From ₹1,299</div></div>
-</div>
+<!-- BIRTHDAY MESSAGE -->
+
+<section id="birthday">
+
+  <div class="card fade">
+
+    <div class="small">
+      Today is your special day
+    </div>
+
+    <h2>
+      Happy Birthday Madam 🥰
+    </h2>
+
+    <p
+      class="message"
+      id="message">
+    </p>
+
+    <button onclick="goTo('gallery')">
+      See Your Memories 📸
+    </button>
+
+  </div>
+
 </section>
 
-<section class="about" id="about">
-<div class="about-content">
-<h2 class="title">The LUMÉRA Experience</h2>
-<p>Step into a space where modern beauty meets personal care. At LUMÉRA, every appointment is designed around you. From your first consultation to the final touch, our goal is simple — help you feel confident and beautiful.</p>
-<div class="stats">
-<div><strong>5+</strong><span>Years Experience</span></div>
-<div><strong>2K+</strong><span>Happy Clients</span></div>
-<div><strong>20+</strong><span>Beauty Services</span></div>
-</div>
-</div>
+
+<!-- PHOTO GALLERY -->
+
+<section id="gallery">
+
+  <div class="small">
+    A few beautiful moments
+  </div>
+
+  <h2>
+    Your Memories 💙
+  </h2>
+
+
+  <div class="gallery">
+
+
+    <!-- PHOTO 1 -->
+
+    <div class="photo">
+      <img
+        src="photo1.jpg"
+        alt="Mounika memory 1">
+    </div>
+
+
+    <!-- PHOTO 2
+         NEW PINK OUTFIT PHOTO -->
+
+    <div class="photo">
+      <img
+        src="photo2.jpg"
+        alt="Mounika memory 2">
+    </div>
+
+
+    <!-- PHOTO 3 -->
+
+    <div class="photo">
+      <img
+        src="photo3.jpg"
+        alt="Mounika memory 3">
+    </div>
+
+
+    <!-- PHOTO 4 -->
+
+    <div class="photo">
+      <img
+        src="photo4.jpg"
+        alt="Mounika memory 4">
+    </div>
+
+
+    <!-- PHOTO 5 -->
+
+    <div class="photo">
+      <img
+        src="photo5.jpg"
+        alt="Mounika memory 5">
+    </div>
+
+
+    <!-- PHOTO 6 -->
+
+    <div class="photo">
+      <img
+        src="photo6.jpg"
+        alt="Mounika memory 6">
+    </div>
+
+
+    <!-- PHOTO 7 -->
+
+    <div class="photo">
+      <img
+        src="photo7.jpg"
+        alt="Mounika memory 7">
+    </div>
+
+
+    <!-- PHOTO 8 -->
+
+    <div class="photo">
+      <img
+        src="photo8.jpg"
+        alt="Mounika memory 8">
+    </div>
+
+
+    <!-- PHOTO 9 -->
+
+    <div class="photo">
+      <img
+        src="photo9.jpg"
+        alt="Mounika memory 9">
+    </div>
+
+
+    <!-- PHOTO 10 -->
+
+    <div class="photo">
+      <img
+        src="photo10.jpg"
+        alt="Mounika teddy">
+    </div>
+
+
+  </div>
+
+
+  <button onclick="goTo('final')">
+    One Last Thing 💌
+  </button>
+
 </section>
 
-<section>
-<h2 class="title">Signature Packages</h2>
-<p class="subtitle">Our most-loved beauty experiences.</p>
-<div class="packages">
-<div class="package"><h3>Glow Package</h3><p>Facial + Manicure + Pedicure</p><div class="bigprice">₹2,499</div><a class="btn" href="#booking">BOOK</a></div>
-<div class="package featured"><h3>Hair Transformation</h3><p>Haircut + Color + Styling</p><div class="bigprice">₹2,999</div><a class="btn" href="#booking">BOOK</a></div>
-<div class="package"><h3>Bridal Beauty</h3><p>Bridal Makeup + Hair + Styling</p><div class="bigprice">₹8,999</div><a class="btn" href="#booking">BOOK</a></div>
-</div>
+
+<!-- FINAL MESSAGE -->
+
+<section id="final" class="final">
+
+  <div class="card fade">
+
+    <div class="small">
+      From my heart
+    </div>
+
+    <h2>
+      Keep Smiling 💙
+    </h2>
+
+    <p>
+Today is your birthday, and I woke up with so much excitement in my heart.❤‍🩹
+
+I want to tell you so many things, but I promise not to spoil your happiest day🤎.
+
+Forgive me for texting--my soul just wouldn't let me stay silent today.
+
+Happy birthday madam 🥰
+
+... #keep smiling... 💙
+    </p>
+
+    <div class="signature">
+      Yours, Puppy 💙💙💙💙
+    </div>
+
+  </div>
+
 </section>
 
-<section>
-<h2 class="title">Our Beauty Gallery</h2>
-<p class="subtitle">A glimpse into the LUMÉRA experience.</p>
-<div class="gallery">
-<div>Beauty<br>Studio</div>
-<div>Hair<br>Styling</div>
-<div>Glow &<br>Care</div>
-<div>Bridal<br>Beauty</div>
-</div>
-</section>
 
-<section class="reviews" id="reviews">
-<h2 class="title">Client Love</h2>
-<p class="subtitle">What our beautiful clients say.</p>
-<div class="reviews">
-<div class="review"><div class="stars">★★★★★</div><p>“Absolutely loved the experience. The team was professional, friendly and my hair looks amazing!”</p><strong>— Ananya R.</strong></div>
-<div class="review"><div class="stars">★★★★★</div><p>“Beautiful atmosphere and wonderful service. LUMÉRA is definitely my new favorite salon.”</p><strong>— Priya M.</strong></div>
-<div class="review"><div class="stars">★★★★★</div><p>“I booked my bridal package here and loved every single detail. Highly recommended!”</p><strong>— Kavya S.</strong></div>
-</div>
-</section>
+<!-- MUSIC BUTTON -->
 
-<section class="booking" id="booking">
-<h2 class="title">Book Your Visit</h2>
-<p class="subtitle">Take a moment for yourself.</p>
-<div class="form">
-<input type="text" placeholder="Your Name">
-<input type="tel" placeholder="Phone Number">
-<select>
-<option>Select a Service</option>
-<option>Hair Styling</option>
-<option>Hair Color</option>
-<option>Facial & Skin Care</option>
-<option>Manicure & Pedicure</option>
-<option>Bridal Beauty</option>
-<option>Spa & Wellness</option>
-</select>
-<input type="date">
-<button class="btn" onclick="alert('Thank you! Your appointment request has been received.')">REQUEST APPOINTMENT</button>
-</div>
-</section>
+<button
+  class="music"
+  onclick="toggleMusic()">
+  🎵
+</button>
 
-<footer>
-<h2>LUMÉRA</h2>
-<p>Salon & Beauty Studio</p>
-<p>Hyderabad • India</p>
-<p>📞 +91 98765 43210</p>
-<p>© 2026 LUMÉRA • Demo Website</p>
-</footer>
 
-<a class="whatsapp" href="https://wa.me/919876543210" target="_blank">💬 WhatsApp</a>
+<script>
+
+/* SMOOTH NAVIGATION */
+
+function goTo(id){
+
+  document
+    .getElementById(id)
+    .scrollIntoView({
+      behavior:"smooth"
+    });
+
+}
+
+
+/* TYPING MESSAGE */
+
+const text =
+"Today is your birthday, and I woke up with so much excitement in my heart.❤‍🩹 I want to tell you so many things, but I promise not to spoil your happiest day🤎. Forgive me for texting--my soul just wouldn't let me stay silent today. Happy birthday madam 🥰 ... #keep smiling... 💙";
+
+let i=0;
+
+const message=
+document.getElementById("message");
+
+
+function typeText(){
+
+  if(i<text.length){
+
+    message.textContent += text.charAt(i);
+
+    i++;
+
+    setTimeout(typeText,28);
+
+  }
+
+}
+
+setTimeout(typeText,700);
+
+
+/* FLOATING HEARTS */
+
+function createHeart(){
+
+  const heart=
+  document.createElement("div");
+
+  heart.className="heart";
+
+  heart.textContent=
+    Math.random()>0.5
+    ? "💙"
+    : "✨";
+
+  heart.style.left=
+    Math.random()*100+"vw";
+
+  heart.style.animationDuration=
+    (5+Math.random()*5)+"s";
+
+  document.body.appendChild(heart);
+
+  setTimeout(
+    ()=>heart.remove(),
+    10000
+  );
+
+}
+
+setInterval(createHeart,800);
+
+
+/* MUSIC */
+
+function toggleMusic(){
+
+  alert(
+    "Music can be added after the photos are uploaded 💙"
+  );
+
+}
+
+</script>
 
 </body>
 </html>
